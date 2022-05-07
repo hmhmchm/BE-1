@@ -113,7 +113,7 @@ public class PostService {
         if (name.equals("")) {
             imagePaths.add("기본이미지 AWS에 저장해서 주소넣기!");
         } else {
-            imagePaths.addAll(s3Service.update(postId, files));
+//            imagePaths.addAll(s3Service.update(postId, files));
         }
 
         //이미지 URL 저장
